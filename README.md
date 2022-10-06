@@ -1,1 +1,1 @@
-used to hold direcoties and files
+used to hold directories and files
