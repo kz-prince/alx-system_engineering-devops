@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ((power/devide))
+echo ((POWER/DIVIDE))
