@@ -10,11 +10,11 @@ apt-get -y install haproxy
 # edit config file
 server_config=\
 "
-frontend  moroyal-frontend
+frontend  prince-frontend
         bind *:80
         mode http
-        default_backend moroyal-backend
-backend moroyal-backend
+        default_backend prince-backend
+backend prince-backend
         balance roundrobin
         server 174223-web-01 54.237.16.131 check
         server 174223-web-02 34.204.76.103 check
