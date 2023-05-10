@@ -1,0 +1,36 @@
+https://www.linkedin.com/pulse/have-you-ever-wondered-what-happens-when-type-url-like-kz-prince
+
+
+Have you ever wondered what happens when you type a URL like https://www.google.com into your browser and press enter? It may seem like a simple task, but there are actually many steps involved in delivering the requested web page to your browser. In this post, we'll walk you through each step of the process to help you understand what happens behind the scenes.
+
+DNS Request
+The first step in the process is a DNS (Domain Name System) request. DNS is a system that translates domain names (like www.google.com) into IP addresses (like 172.217.3.100) that computers can understand. When you enter a URL into your browser, it sends a DNS request to a DNS server to look up the IP address associated with the domain name. If the DNS server has the IP address cached, it returns it immediately. If not, it sends a request to other DNS servers until it finds the IP address.
+
+TCP/IP
+
+Once the browser has the IP address for the requested domain, it establishes a TCP (Transmission Control Protocol) connection with the server at that IP address. TCP is a protocol that ensures reliable communication between two computers over the internet. It breaks the data into small packets and sends them over the internet, keeping track of which packets have arrived and which haven't.
+
+Firewall
+
+Before the TCP connection is established, it may need to pass through a firewall. A firewall is a security system that monitors and controls incoming and outgoing network traffic. It can be configured to block certain types of traffic or only allow traffic from certain IP addresses or ports.
+
+HTTPS/SSL
+
+Once the TCP connection is established, the browser sends an HTTPS (Hypertext Transfer Protocol Secure) request to the server. HTTPS is a secure version of HTTP that uses SSL (Secure Sockets Layer) or TLS (Transport Layer Security) to encrypt the data being sent between the browser and the server. SSL/TLS uses a combination of public and private key encryption to ensure that the data can't be intercepted or tampered with by third parties.
+
+Load-balancer
+If the requested domain is served by multiple servers, the request may be directed to a load-balancer first. A load-balancer is a device that distributes incoming network traffic across multiple servers to ensure that no single server is overwhelmed with requests. It can use a variety of algorithms to determine which server should receive each request.
+
+Web server
+
+Once the request has made it past any firewalls or load-balancers, it arrives at the web server. The web server is a piece of software that runs on the server and handles incoming HTTP/HTTPS requests from clients. It retrieves the requested files or data and sends them back to the client in the response.
+Application server
+
+
+If the requested page or resource requires dynamic content, the request may be forwarded to an application server. An application server is a server that runs an application or program that generates the content of the page on the fly. The application server retrieves the necessary data from a database or other sources, processes it, and sends the resulting HTML or other content back to the web server.
+
+Database
+
+If the application server needs to retrieve data from a database, it sends a query to the database server. The database server is a server that stores and manages data in a structured way. It retrieves the requested data, processes it, and sends it back to the application server, which can then use it to generate the page or resource that the client requested.
+
+In conclusion, typing a URL like https://www.google.com into your browser and pressing enter involves a complex series of steps that involve DNS, TCP/IP, firewalls, HTTPS/SSL, load-balancers, web servers, application servers, and databases. All of these components work together seamlessly to deliver the requested content to your browser, allowing you to browse the web with ease.
